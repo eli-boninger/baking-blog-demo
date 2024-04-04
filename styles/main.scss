@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: orange;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    padding: 1rem 0 0 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1rem;
+
+    &__link {
+        text-decoration: none;
+        color: yellow
+    }
+}
