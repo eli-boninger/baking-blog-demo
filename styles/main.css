@@ -1,15 +1,33 @@
+* {
+  font-family: "Comic Sans MS";
+}
+
 body {
   margin: 0;
 }
 
+.footer {
+  background-color: orange;
+  padding: 0.5rem 1rem;
+}
+.footer__link {
+  color: yellow;
+}
+
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: orange;
 }
 
 .title {
-  text-align: center;
   margin: 0;
   padding: 1rem 0 0 0;
+}
+
+.nav {
+  width: 100%;
 }
 
 .nav-list {
@@ -21,4 +39,11 @@ body {
 .nav-list__link {
   text-decoration: none;
   color: yellow;
+}
+
+.blog-entry {
+  margin-left: 1rem;
+}
+.blog-entry__photo {
+  width: 95%;
 }/*# sourceMappingURL=main.css.map */

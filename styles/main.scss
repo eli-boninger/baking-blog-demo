@@ -1,15 +1,36 @@
+@use 'partials/colors';
+
+* {
+    font-family: 'Comic Sans MS';
+}
+
 body {
     margin: 0;
 }
 
+.footer {
+    background-color: colors.$background-secondary;
+    padding: 0.5rem 1rem;
+
+    &__link {
+        color: colors.$nav-link
+    }
+}
+
 .header {
-    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: colors.$background-secondary;
 }
 
 .title {
-    text-align: center;
     margin: 0;
     padding: 1rem 0 0 0;
+}
+
+.nav {
+    width: 100%;
 }
 
 .nav-list {
@@ -20,6 +41,14 @@ body {
 
     &__link {
         text-decoration: none;
-        color: yellow
+        color: colors.$nav-link;
+    }
+}
+
+.blog-entry {
+    margin-left: 1rem;
+
+    &__photo {
+        width: 95%;
     }
 }
