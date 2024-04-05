@@ -42,6 +42,10 @@ body {
     &__link {
         text-decoration: none;
         color: colors.$nav-link;
+
+        &--active {
+            border-bottom: 2px solid colors.$nav-link
+        }
     }
 }
 
@@ -50,5 +54,16 @@ body {
 
     &__photo {
         width: 95%;
+    }
+}
+
+.blog-archive {
+    border: .25rem dotted violet;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: beige;
+
+    &__header {
+        margin: 0;
     }
 }

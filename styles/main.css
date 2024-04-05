@@ -40,10 +40,23 @@ body {
   text-decoration: none;
   color: yellow;
 }
+.nav-list__link--active {
+  border-bottom: 2px solid yellow;
+}
 
 .blog-entry {
   margin-left: 1rem;
 }
 .blog-entry__photo {
   width: 95%;
+}
+
+.blog-archive {
+  border: 0.25rem dotted violet;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: beige;
+}
+.blog-archive__header {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
