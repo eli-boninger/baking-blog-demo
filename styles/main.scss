@@ -24,9 +24,17 @@ body {
     background-color: colors.$background-secondary;
 }
 
+@media (min-width: 480px) {
+    .header {
+        flex-direction: row;
+    }
+}
+
+
 .title {
     margin: 0;
     padding: 1rem 0 0 0;
+    width: 70%;
 }
 
 .nav {
@@ -35,7 +43,7 @@ body {
 
 .nav-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     padding: 1rem;
 
@@ -72,3 +80,19 @@ body {
     margin-left: 1rem;
     width: 90%;
 }
+
+.svg-image {
+    height: 250px;
+    width: 250px;
+}
+
+/********* SVG Animation Demo ************/
+
+// .svg-circle {
+//     transition-duration: 1s;
+
+//     &:hover {
+//         transform-origin: center;
+//         transform: scale(0.5);
+//     }
+// }
